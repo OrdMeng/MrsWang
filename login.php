@@ -16,6 +16,6 @@ if(empty($username) || empty($pwd)) {
     }
 }
 
-echo json_encode($data);
+echo json_encode($data,JSON_UNESCAPED_UNICODE);
 
 
